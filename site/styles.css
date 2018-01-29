@@ -23,7 +23,21 @@ body {
 }
 
 .centerTitle {
-	color: white;
-	font-size: 75px;
+	color: #FFD700;
+	font-size: 100px;
 	font-weight: bold;
+}
+
+.products {
+	margin: 50px 10px 10px 100px;
+
+}
+
+.productThumbNail {
+	width: 250px;
+	height: 250px;
+}
+
+.productName {
+	margin: 15px 0px 0px 0px;
 }
