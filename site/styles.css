@@ -1,3 +1,29 @@
 body {
 	background-color: white;
+	color: black;
+	font-family: sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+.bannerHeader {
+	background-image: url("./images/christmasStan.png");
+	background-size: 350px;
+	width: auto;
+	height: 350px;
+	background-repeat: repeat-x;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.centerTitle {
+	color: white;
+	font-size: 75px;
+	font-weight: bold;
 }
