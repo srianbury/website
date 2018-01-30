@@ -55,7 +55,6 @@ a.textLink:active
 
 .products {
 	margin: 50px 10px 10px 25px;
-
 }
 
 .productThumbNail {
@@ -64,12 +63,13 @@ a.textLink:active
 }
 
 .productName {
-	margin: 15px 0px 0px 0px;
+	margin: 10px 0px 10px 0px;
 	text-align: left;
+	padding: 0px 0px 0px 10px;
 }
 
 .productNameButton {
-	background-color: white;
+	background-color: #D3D3D3;
 	color: black;
 	border-radius: 10px;
 	padding: 0px;
