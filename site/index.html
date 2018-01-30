@@ -2,9 +2,38 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">	<title>Stanley Clothing</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+	<title>Stanley Clothing</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
+
+<!-- Modal -->
+<div class="modal fade" id="item0Modal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">White Long Sleeve T</h4>
+            </div>
+            <div class="modal-body">
+            	<span>
+                    <img class="productImageModal" src="./images/whiteLongSleeveT.jpeg" alt="White Long Sleeve T">
+                    <img class="productImageModal" src="./images/whiteLongSleeveTLogo.jpeg" alt="White Long Sleeve T">
+                </span>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div> 
+    </div>
+</div>
+<!-- end Modal-->
+
 <body>
 <div class="bannerHeader">
 	<h1 class="centerTitle">Stan Store</h1>
@@ -12,8 +41,8 @@
 <div class="products">
 	<div clas="product">
 		<img class="productThumbNail" src="./images/whiteLongSleeveT.jpeg" alt="White Long Sleeve T" onmouseover="this.src='./images/whiteLongSleeveTLogo.jpeg';" onmouseout="this.src='./images/whiteLongSleeveT.jpeg';">
-		<h4 class="productName">White Long Sleeve T</h4>
+		<button type="button" class="productNameButton" data-toggle="modal" data-target="#item0Modal">White Long Sleeve T</button>
 	</div>
 </div>
 </body>
-</html>
+</html> 

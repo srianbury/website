@@ -41,3 +41,21 @@ body {
 .productName {
 	margin: 15px 0px 0px 0px;
 }
+
+.productNameButton {
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 16px;
+	border-width: 0px;
+	display: block;
+	margin: 10px 0px 0px 0px;
+	font-weight: 600;
+}
+
+.productImageModal {
+	width: 250px;
+	height: 250px;
+	margin: 10px;
+}
